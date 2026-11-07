@@ -5,3 +5,4 @@ XNLI-MT-1.0/
 .python-version
 pretrain.txt
 uv.lock
+*.pdf
