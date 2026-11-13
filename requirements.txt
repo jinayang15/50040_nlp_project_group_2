@@ -1,0 +1,22 @@
+# Install with: python -m pip install -r requirements.txt
+# GPU server: NVIDIA driver 580+ and a CUDA 13.0-compatible GPU.
+# Match local PyTorch 2.14.1, using the CUDA build instead of the CPU build.
+# Keep PyPI as the primary index for the other project dependencies.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.14.1+cu130
+
+# Match the Transformers version in the local nlp environment.
+transformers==4.57.6
+einops
+numpy
+pandas
+matplotlib
+scipy
+tqdm
+requests
+filelock
+huggingface_hub
+
+# Notebook kernel and interactive progress bars.
+ipykernel
+ipywidgets
