@@ -6,3 +6,4 @@ XNLI-MT-1.0/
 pretrain.txt
 uv.lock
 *.pdf
+.ipynb_checkpoints/
